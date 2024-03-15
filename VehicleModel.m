@@ -24,6 +24,8 @@ classdef VehicleModel < handle
     
     properties
         m = 2000.0, 			% Mass (kg)
+        tau_steering = 2;       % steering time constant
+        tau_velocity = 3;       % velocity time constant
         
         max_vel = 5;
     end
